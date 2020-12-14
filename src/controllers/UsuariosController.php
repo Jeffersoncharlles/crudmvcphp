@@ -16,4 +16,8 @@ class UsuariosController extends Controller {
         $this->render('add', $dados);
     }
 
+    public function addAction(){
+        echo 'recebido';
+    }
+
 }
