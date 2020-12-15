@@ -19,7 +19,7 @@
       <td><?=$usuario['email'];?></td>
       <td>
           <a href="<?=$base;?>/usuario/<?=$usuario['id'];?>/editar" class="btn btn-warning btn-sm">Editar</a>
-          <a href="<?=$base;?>/usuario/<?=$usuario['id'];?>/excluir" class="btn btn-danger btn-sm">Excluir</a>
+          <a href="<?=$base;?>/usuario/<?=$usuario['id'];?>/excluir" onclick="return confirm('Tem certeza que deseja excluir?')" class="btn btn-danger btn-sm">Excluir</a>
       </td>
     </tr>
       <?php endforeach; ?>
