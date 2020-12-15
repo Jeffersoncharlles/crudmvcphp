@@ -1,0 +1,14 @@
+body {
+    font-family:Helvetica;
+    font-size:13px;
+    margin:20px;
+}
+
+.documents{
+    width: 20px;
+    height: 20px;
+}
+.trashs{
+    width: 20px;
+    height: 20px;
+}
